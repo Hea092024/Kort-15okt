@@ -6,7 +6,11 @@
 img {
     display: block;
     max-width: 100%;
-    margin-top: 40px;
+    border-right: solid 2px blue;
+    position: relative;
+    left: 10px;
+
+    
 }
 
 body {
@@ -42,9 +46,11 @@ h2 {
     display: flex;
     max-width: 500px;
     border-radius: 10px;
+    
 }
 
 .img-container {
+    z-index: 1;
     width: 800px;
 }
 
