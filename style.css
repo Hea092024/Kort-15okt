@@ -28,7 +28,7 @@ h1,
 h2,
 h3,
 p {
-    color: rgba(0,110,180,255);
+    color: rgb(195 232 255);
 }
 
 h1 {
@@ -57,6 +57,7 @@ h2 {
 .card-details {
     display: flex;
     gap: 20px;
+    color: rgba(0,110,180,255);
 }
 
 .item {
@@ -64,7 +65,7 @@ h2 {
 }
 
 .label {
-    color:#2546d5;
+    color:#7e92ff;
 }
 
 .details-container {
